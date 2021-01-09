@@ -1,0 +1,64 @@
+[
+    {
+        "columns": [
+            {
+                "title": "名称",
+                "type": "input",
+                "slot": "cameraName"
+            },
+            {
+                "title": "类别",
+                "type": "select",
+                "option":[
+                    {
+                       "code": "1",
+                       "name": "道路监控" 
+                    },
+                    {
+                       "code": "2",
+                       "name": "治安监控" 
+                    },
+                    {
+                       "code": "3",
+                       "name": "路口违章监控" 
+                    },
+                    {
+                       "code": "4",
+                       "name": "测速监控" 
+                    }
+                ],
+                "slot": "cameraTypeDictName"
+            },
+            {
+                "title": "设备编码",
+                "type": "input",
+                "slot": "cameraCode"
+            },
+            {
+                "title": "行政区划",
+                "type": "tree",
+                "treeType": "deptTree",
+                "slot": "areaName"
+            },
+            {
+                "title": "所属组织",
+                "type": "tree",
+                "treeType": "organizationTree",
+                "slot": "deptName"
+            },
+            {
+                "title": "地址",
+                "type": "input",
+                "slot": "address"
+            },            
+            {
+                "title": "操作栏",
+                "type": "actionBtn",
+                "slot": "action",
+                "align": "center"
+            }
+                    
+        ]
+    }
+
+]

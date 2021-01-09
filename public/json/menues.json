@@ -1,0 +1,84 @@
+[
+	{
+		"id": "1",
+		"name": "menue1",
+		"tittle": "item1",
+		"icon": "ios-navigate",
+		"childrens":[
+			{
+				"id": "1-1",
+				"name": "menue1-1",
+				"tittle": "item1-1"
+			},
+			{
+				"id": "1-2",
+				"name": "menue1-2",
+				"tittle": "item1-2"
+			},
+			{
+				"id": "1-3",
+				"name": "menue1-3",
+				"tittle": "item1-3"
+			},
+			{
+				"id": "1-4",
+				"name": "menue1-4",
+				"tittle": "item1-4"
+			}
+		]
+	},
+	{
+		"id": "2",
+		"name": "menue2",
+		"tittle": "item2",
+		"icon": "ios-keypad",
+		"childrens":[
+			{
+				"id": "2-1",
+				"name": "menue2-1",
+				"tittle": "item2-1"
+			},
+			{
+				"id": "2-2",
+				"name": "menue2-2",
+				"tittle": "item2-2"
+			}
+		],
+		"level":[{
+					"id": "4",
+					"name": "menue2-3",
+					"tittle": "item2-3",
+					"icon": "md-attach",
+					"childrens":[
+						{
+							"id": "3-1",
+							"name": "menue2-3-1",
+							"tittle": "item2-3-1"
+						},
+						{
+							"id": "4-2",
+							"name": "menue2-3-2",
+							"tittle": "item2-3-2"
+						}
+					]
+		}]
+	},
+	{
+		"id": "3",
+		"name": "menue3",
+		"tittle": "item3",
+		"icon": "ios-analytics",
+		"childrens":[
+			{
+				"id": "3-1",
+				"name": "menue3-1",
+				"tittle": "item3-1"
+			},
+			{
+				"id": "3-2",
+				"name": "menue3-2",
+				"tittle": "item3-2"
+			}
+		]
+	}
+]

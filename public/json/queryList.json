@@ -1,0 +1,68 @@
+[
+	[
+		{
+			"typeList": "input",
+			"queryName": "query1",
+			"queryText": "查询条件1",
+			"queryValue": ""
+		},
+		{
+			"typeList": "select",
+			"queryName": "query2",
+			"queryText": "查询条件2",
+			"queryValue": "",
+			"option":[
+				    {
+                        "value": "New York",
+                        "label": "New York"
+                    },
+                    {
+                        "value": "London",
+                        "label": "London"
+                    },
+                    {
+                        "value": "Sydney",
+                        "label": "Sydney"
+                    },
+                    {
+                        "value": "Ottawa",
+                        "label": "Ottawa"
+                    },
+                    {
+                        "value": "Paris",
+                        "label": "Paris"
+                    },
+                    {
+                        "value": "Canberra",
+                        "label": "Canberra"
+                    }
+			]
+		},
+		{
+			"typeList": "input",
+			"queryName": "query3",
+			"queryText": "查询条件3",
+			"queryValue": ""
+		}
+	],
+	[
+		{
+			"typeList": "input",
+			"queryName": "query5",
+			"queryText": "查询条件5",
+			"queryValue": ""
+		},
+		{
+			"typeList": "input",
+			"queryName": "query6",
+			"queryText": "查询条件6",
+			"queryValue": ""
+		},
+		{
+			"typeList": "input",
+			"queryName": "query7",
+			"queryText": "查询条件7",
+			"queryValue": ""
+		}
+	]
+]

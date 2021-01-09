@@ -1,0 +1,48 @@
+[
+	{
+		"columns": [
+            {
+                "title": "姓名",
+                "slot": "name"
+            },
+            {
+                "title": "年龄",
+                "slot": "age"
+            },
+            {
+                "title": "地址",
+                "slot": "address"
+            },
+            {
+                "title": "操作栏",
+                "slot": "action",
+                "align": "center"
+            }
+                    
+        ]
+	},
+    {
+        "content": [
+            {
+                "name": "John Brown",
+                "age": 18,
+                "address": "New York No "
+            },
+            {
+                "name": "John Brown22",
+                "age": 1822,
+                "address": "1 Lake Park"
+            },
+            {
+                "name": "John Brown4444",
+                "age": 1833,
+                "address": "New  Park"
+            },
+            {
+                "name": "John Brown333",
+                "age": 1832,
+                "address": "New 333 Park"
+            }
+        ]
+    }
+]
