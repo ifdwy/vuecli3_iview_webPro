@@ -9,6 +9,10 @@ import { Collapse, Panel, Input, Row,Button,Select,Option } from 'view-design';
 import { Table,Modal  } from 'view-design';
 //	表单组件
 import { Form,FormItem,Tree } from 'view-design';
+// menue1-3.vue 中用到的组件
+import { Split,Carousel,CarouselItem } from 'view-design';
+// list 列表
+import { List,ListItem,ListItemMeta } from 'view-design';
 
 Vue.prototype.$Modal = Modal
 // Vue.use(ViewUI);
@@ -38,3 +42,12 @@ Vue.component('Modal', Modal);
 Vue.component('Form', Form);
 Vue.component('FormItem', FormItem);
 Vue.component('Tree', Tree);
+
+// 轮播
+Vue.component('Carousel', Carousel);
+Vue.component('Split', Split);
+Vue.component('CarouselItem', CarouselItem);
+// list列表
+Vue.component('List', List);
+Vue.component('ListItem', ListItem);
+Vue.component('ListItemMeta', ListItemMeta);

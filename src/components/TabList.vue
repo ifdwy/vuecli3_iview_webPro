@@ -7,7 +7,7 @@
 	<div class="TabList">
 	    <Table border :columns="columns" :data="data" :class="['tablist']">
 	    	<template v-for="(item, ins) in columns" slot-scope="{ row, index }" :slot="item.slot">
-                <div v-for="[key, val] of Object.entries(row)"> 
+                <div v-for="[key, val] of Object.entries(row)" > 
                     <strong v-if="item.slot == key"> {{val}} </strong>
                 </div> 
                 <strong v-if=" item.slot == 'action'"> 
@@ -39,7 +39,7 @@
         		this.$http.get("/json/TabList1-1.json").then(res=>{
         			this.columns =res.data[0].columns;
                 });
-                 获取表格里的内容
+                 // 获取表格里的内容
                 this.$http.get("/api/camera/queryList").then(res=>{
                     this.data =res.data.data;
                 })

@@ -1,4 +1,5 @@
 
+const path = require("path");
 module.exports = {
     outputDir: 'dist',   //build输出目录
     assetsDir: 'assets', //静态资源目录（js, css, img）
@@ -11,12 +12,12 @@ module.exports = {
         https: false,   //是否使用https协议
         hotOnly: false, //是否开启热更新
         proxy: {
-            '/api': {
-                target: 'http://localhost:8818', //API服务器的地址
+            '/jhApi': {
+                target: 'http://42.48.91.149:48080', //API服务器的地址
                 ws: true,  //代理websockets
                 changeOrigin: true, // 虚拟的站点需要更管origin
                 pathRewrite: {   //重写路径 比如'/api/aaa/ccc'重写为'/aaa/ccc'
-                    '^/api': ''
+                    '^/jhApi': ''
                 }
             },
             '/testMock': {
@@ -31,8 +32,14 @@ module.exports = {
     },
     // 第三方插件配置
     pluginOptions: {
-        'process.env':{// chorm 使用devtools配置
-            NODE_ENV:'"development"'
-        }
+      'process.env': {
+        NODE_ENV: '"development"'
+      },
+      'style-resources-loader': {
+        preProcessor: 'less',
+        patterns: [
+			path.resolve(__dirname, './src/style/theme.less')
+		]
+      }
     }
 }

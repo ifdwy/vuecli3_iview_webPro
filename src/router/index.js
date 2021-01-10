@@ -31,6 +31,11 @@ Vue.use(VueRouter)
               path: 'menue1-2',
               name: 'menue1-2',
               component: ()=> import('../views/menue1-2.vue')
+          },
+          {
+              path: 'menue1-3',
+              name: 'menue1-3',
+              component: ()=> import('../views/menue1_3.vue')
           }
         ]
       }, 
