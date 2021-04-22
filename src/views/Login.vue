@@ -40,7 +40,7 @@
 		<div class="loginDiv">
 			<div class="loginContent">
 				<Icon type="ios-cog-outline" size="20" class="iconImg"/>
-				<span class="loginDes">用户登录</span>
+				<span class="loginDes">用户登录Test</span>
 				<Input v-model="account" style="width: 350px">
 			        <span slot="prepend">账号:</span>
 			    </Input>
